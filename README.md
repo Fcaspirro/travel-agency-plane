@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center">
- <img align="center" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FFcaspirro%2Fplane-travel-agency&countColor=%232ccce4"/>
+ <img align="center" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FFcaspirro%2Ftravel-agency-plane&countColor=%232ccce4"/>
  </p>
 
 <h5 align="center"> 
