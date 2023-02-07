@@ -1,0 +1,20 @@
+:root {
+    --background: #fff;
+    --main-text-color: #fff;
+    --sub-text-color: #cbd5e1; 
+    --span-text-color: #1e293b;
+    --secondary-text-color: #9ca3af;
+    --button: #38bdf8;
+    --hover-text: #d4d4d8;
+    --hover-button: #0284c7;
+    --orange: #fb923c;
+
+    /* font size */
+
+    --sm: 12px;
+    --md: 14px;
+    --lg: 18px;
+    --xl: 24px;
+    --xxl: 32px;
+    --xxxl: 48px;
+}

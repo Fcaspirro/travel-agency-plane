@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="author" content="Fabio Caspirro">
+    <meta name="description" content="Website fictício de agência de viagens construido em HTML e CSS!">
+    <meta name="keywords" content="html, css, front-end, dev, css, travel, viagem, agência, viajar">
+
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="package/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Plane</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <main>
+    <header>
+      <nav class="navbar">
+
+        <div class="first-nav"> 
+          <img class="logo" src="./assets/img/light-logo.png" title="Plane" alt="Logo Plane" />
+          <div class="search-nav">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Pesquisar..."/>
+          </div>
+        </div>
+
+        <a href="#" id="menuBtn" class="menu-btn">
+          <i class="uil uil-bars"></i>
+        </a>
+        <div class="menu-sidebar" id="sidebar">
+          <a href="#" id="closeBtn" class="close-btn">
+            <i class="uil uil-times"></i>
+          </a>
+          <div class="follow-nav">
+            <ul class="second-nav">
+              <li class="nav-item"><a href="#home">DESTINOS</a></li>   
+              <li class="nav-item"><a href="#">HOTÉIS</a></li>
+              <li class="nav-item"><a href="#">TURISMO</a></li> 
+              <li class="nav-item"><a href="#blog">BLOG</a></li> 
+              <li class="nav-item"><a href="#">CONTATO</a></li> 
+            </ul>
+
+            <div class="point"></div>
+
+            <ul class="third-nav">
+              <li class="nav-item"><a href="#">LOGIN</a></li>
+              <li class="nav-item"><a href="#">CADASTRAR</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+
+    <div class="content-main" id="home">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <!-- DUBAI -->
+          <div class="swiper-slide">
+            <div class="banner-img">
+              <img class="img" src="./assets/img/main-card/dubai.png"  id="dubai" title="Dubai" alt="Imagem main card de Dubai"/>
+
+              <div class="banner">
+                <div class="main-banner">
+                  <h1>Dubai</h1>
+                  <p>Emirados Árabes Unidos</p>
+                </div>
+
+                <button>EXPLORAR CIDADE ⤏</button> 
+              </div>  
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <!-- RIO DE JANEIRO -->
+          <div class="swiper-slide">  
+            <div class="banner-img">
+              <img class="img" src="./assets/img/main-card/brazil.png" title="Rio de Janeiro" alt="Imagem main card de Rio de Janeiro"/>
+
+              <div class="banner">
+                  <div class="main-banner">
+                    <h1>Rio de Janeiro</h1>
+                    <p>Brasil</p>
+                  </div>
+
+                  <button>EXPLORAR CIDADE ⤏</button>   
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <!-- SINGAPURA -->
+          <div class="swiper-slide"> 
+            <div class="banner-img">
+              <img class="img" src="./assets/img/main-card/singapore.png" title="Singapura" alt="Imagem main card de Singapura"/>
+
+              <div class="banner">
+                  <div class="main-banner">
+                    <h1>Singapura</h1>
+                    <p>País na Ásia</p>
+                  </div>
+
+                  <button>EXPLORAR CIDADE ⤏</button>   
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <!-- SUIÇA -->
+          <div class="swiper-slide"> 
+            <div class="banner-img">
+              <img class="img" src="./assets/img/main-card/switzerland.png" title="Suiça" alt="Imagem main card de Suiça" />
+
+              <div class="banner">
+                  <div class="main-banner">
+                    <h1>Suíça</h1>
+                    <p>País na Europa</p>
+                  </div>
+
+                  <button>EXPLORAR CIDADE ⤏</button>   
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="navigation" id="navigation">
+    
+    <div class="container">
+      <div class="field-search">
+        <div class="elements-search">
+          <i class="uil uil-search"></i>
+          <input type="text" id="search" placeholder="Buscar destinos..."/>
+        </div>
+      </div>
+
+      <div class="title">
+        <h2><span>Conteúdo: </span>Navegue pelas cidades e saiba tudo sobre o pais do seu próximo destino, como: história, economia, hotéis, turismo, restaurantes e muito mais..</h2>
+      </div>
+
+      <div class="line container"></div>
+
+      <div class="filter">
+        <button class="btn">Cidades</button>   
+        <button class="btn active">Turismo</button>
+        <button class="btn">Restaurantes</button>
+        <button class="btn">Curiosidades</button>
+      </div>
+
+      <div class="content-main-box">
+        <div class="swiper-container swiper-container-card">
+          <div class="swiper-wrapper">
+
+            <!-- DUBAI -->
+            <div class="swiper-slide"> 
+              <h2 class="title-city">Dubai</h2>
+              <div class="box-container">       
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-1.webp" class="card-img" title="Card 1" alt="Card 1 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Burj Khalifa</h3>
+                      <p class="subtitle-card">Downtown Dubai</p>
+                      <p class="score">Nota: 9.8</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-2.webp" class="card-img" title="Card 2" alt="Card 2 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">The View</h3>
+                      <p class="subtitle-card">The Palm Jumeirah Tower, 52ed Floor</p>
+                      <p class="score">Nota: 9.2</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-3.webp" class="card-img" title="Card 3" alt="Card 3 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Dubai Mall</h3>
+                      <p class="subtitle-card">Downtown Dubai</p>
+                      <p class="score">Nota: 8.7</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-4.webp" class="card-img" title="Card 4" alt="Card 4 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Skydive Dubai</h3>
+                      <p class="subtitle-card">Dubai Marina</p>
+                      <p class="score">Nota: 9.9</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-5.webp" class="card-img" title="Card 5" alt="Card 5 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Global Village</h3>
+                      <p class="subtitle-card">Exit 37 - E311</p>
+                      <p class="score">Nota: 9.0</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-6.webp" class="card-img" title="Card 6" alt="Card 6 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Aquaventure Waterpark</h3>
+                      <p class="subtitle-card">Atlantis The Palm</p>
+                      <p class="score">Nota: 9.0</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-7.webp" class="card-img" title="Card 7" alt="Card 7 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Burj Al Arab</h3>
+                      <p class="subtitle-card">Umm Suqeim 3</p>
+                      <p class="score">Nota: 9.4</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-8.webp" class="card-img" title="Card 8" alt="Card 8 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">Ain Dubai</h3>
+                      <p class="subtitle-card">Bluewaters Island</p>
+                      <p class="score">Nota: 8.7</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/dubai-card/dubai-9.webp" class="card-img" title="Card 9" alt="Card 9 de Dubai">
+                    <div class="content-box">
+                      <h3 class="title-card">The Dubai Fountain</h3>
+                      <p class="subtitle-card">Downtown Dubai</p>
+                      <p class="score">Nota: 8.8</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-button-next" id="card-next"></div>
+              <div class="swiper-button-prev" id="card-prev"></div>
+            </div>
+
+            <!-- RIO DE JANEIRO -->
+            <div class="swiper-slide">
+              <h2 class="title-city">Rio de Janeiro</h2> 
+              <div class="box-container">       
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-1.webp" class="card-img" title="Card 1" alt="Card 1 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Praia de Copacabana</h3>
+                      <p class="subtitle-card">Copacabana</p>
+                      <p class="score">Nota: 9.2</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-2.webp" class="card-img" title="Card 2" alt="Card 2 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Cristo Redentor</h3>
+                      <p class="subtitle-card">Morro do Corcovado</p>
+                      <p class="score">Nota: 8.5</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-3.webp" class="card-img" title="Card 3" alt="Card 3 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Bondinho do Pão de Açúcar</h3>
+                      <p class="subtitle-card">Pão de Açúcar</p>
+                      <p class="score">Nota: 8.4</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-4.webp" class="card-img" title="Card 4" alt="Card 4 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Mirante Dona Marta</h3>
+                      <p class="subtitle-card">Santa Teresa</p>
+                      <p class="score">Nota: 8.8</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-5.webp" class="card-img" title="Card 5" alt="Card 5 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Museu do Amanhã</h3>
+                      <p class="subtitle-card">Centro</p>
+                      <p class="score">Nota: 8.1</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-6.webp" class="card-img" title="Card 6" alt="Card 6 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Pôr do Sol Arpoador</h3>
+                      <p class="subtitle-card">Ipanema</p>
+                      <p class="score">Nota: 8.0</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-7.webp" class="card-img" title="Card 7" alt="Card 7 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Estátua do Drummond</h3>
+                      <p class="subtitle-card">Copacabana</p>
+                      <p class="score">Nota: 7.6</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-8.webp" class="card-img" title="Card 8" alt="Card 8 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card">Pedra do Telégrafo</h3>
+                      <p class="subtitle-card">Parque Estadual da Pedra Branca</p>
+                      <p class="score">Nota: 9.3</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/rj-card/rj-9.webp" class="card-img" title="Card 9" alt="Card 9 de Rio de Janeiro">
+                    <div class="content-box">
+                      <h3 class="title-card"> AquaRio</h3>
+                      <p class="subtitle-card">Centro</p>
+                      <p class="score">Nota: 9.2</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-button-next" id="card-next"></div>
+              <div class="swiper-button-prev" id="card-prev"></div>
+            </div>
+
+            <!-- SINGAPURA -->
+            <div class="swiper-slide"> 
+              <h2 class="title-city">Singapura</h2>
+              <div class="box-container">       
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-1.webp" class="card-img" title="Card 1" alt="Card 1 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Night Safari</h3>
+                      <p class="subtitle-card">Mandai Lake Road</p>
+                      <p class="score">Nota: 8.0</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-2.webp" class="card-img" title="Card 2" alt="Card 2 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Supertree Grove</h3>
+                      <p class="subtitle-card">Gardens by the Bay</p>
+                      <p class="score">Nota: 9.5</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-3.webp" class="card-img" title="Card 3" alt="Card 3 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Sentosa</h3>
+                      <p class="subtitle-card">Ilha de Singapura</p>
+                      <p class="score">Nota: 9.0</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-4.webp" class="card-img" title="Card 4" alt="Card 4 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card"> ArtScience Museum </h3>
+                      <p class="subtitle-card">6 Bayfront Ave</p>
+                      <p class="score">Nota: 9.2</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-5.webp" class="card-img" title="Card 5" alt="Card 5 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Singapore Flyer</h3>
+                      <p class="subtitle-card">30 Raffles Avenue</p>
+                      <p class="score">Nota: 8.5</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-6.webp" class="card-img" title="Card 6" alt="Card 6 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Shopping Paradise</h3>
+                      <p class="subtitle-card">Orchard Road</p>
+                      <p class="score">Nota: 9.0</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-7.webp" class="card-img" title="Card 7" alt="Card 7 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Merlion Park</h3>
+                      <p class="subtitle-card">Fullerton Heritage</p>
+                      <p class="score">Nota: 8.4</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-8.webp" class="card-img" title="Card 8" alt="Card 8 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Cloud Forest</h3>
+                      <p class="subtitle-card">Gardens by the Bay</p>
+                      <p class="score">Nota: 9.3</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/singapore-card/singapore-9.webp" class="card-img" title="Card 9" alt="Card 9 de Singapura">
+                    <div class="content-box">
+                      <h3 class="title-card">Marina Bay Sands Hotel</h3>
+                      <p class="subtitle-card">10 Bayfront Avenue</p>
+                      <p class="score">Nota: 9.6</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-button-next" id="card-next"></div>
+              <div class="swiper-button-prev" id="card-prev"></div>
+            </div>
+
+            <!-- SUIÇA -->
+            <div class="swiper-slide"> 
+              <h2 class="title-city">Suiça</h2>
+              <div class="box-container">       
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-1.webp" class="card-img" title="Card 1" alt="Card 1 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Cathédrale Notre-Dame</h3>
+                      <p class="subtitle-card">1005, Lausanne </p>
+                      <p class="score">Nota: 8.2</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-2.webp" class="card-img" title="Card 2" alt="Card 2 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Castle Chillion</h3>
+                      <p class="subtitle-card">1820, Veytaux</p>
+                      <p class="score">Nota: 8.4</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-3.webp" class="card-img" title="Card 3" alt="Card 3 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Glacier Express</h3>
+                      <p class="subtitle-card">St. Moritz/Davos - Zenrmatt</p>
+                      <p class="score">Nota: 9.8</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-4.webp" class="card-img" title="Card 4" alt="Card 4 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Matterhorn Glacier Paradise</h3>
+                      <p class="subtitle-card">3920 Zermatt</p>
+                      <p class="score">Nota: 8.8</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-5.webp" class="card-img" title="Card 5" alt="Card 5 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Kapellbrücke</h3>
+                      <p class="subtitle-card">6002, Luzern</p>
+                      <p class="score">Nota: 8.1</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-6.webp" class="card-img" title="Card 6" alt="Card 6 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Pilatus Luzern </h3>
+                      <p class="subtitle-card">6010, Alpnach</p>
+                      <p class="score">Nota: 9.7</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-7.webp" class="card-img" title="Card 7" alt="Card 7 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Cathédrale Saint-Pierre</h3>
+                      <p class="subtitle-card">1204, Genève</p>
+                      <p class="score">Nota: 8.1</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-8.webp" class="card-img" title="Card 8" alt="Card 8 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Comuna de Fribourg</h3>
+                      <p class="subtitle-card">Fribourg</p>
+                      <p class="score">Nota: 8.3</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+                <div class="box-cards card">
+                  <img src="./assets/img/switzerland-card/switzerland-9.webp" class="card-img" title="Card 9" alt="Card 9 de Suiça">
+                    <div class="content-box">
+                      <h3 class="title-card">Trummelbach Falls</h3>
+                      <p class="subtitle-card">3824, Lauterbrunnen</p>
+                      <p class="score">Nota: 8.5</p>
+                    </div>
+                  <div class="overlay">
+                  </div>
+                </div>
+
+              </div>
+              <div class="swiper-button-next" id="card-next"></div>
+              <div class="swiper-button-prev" id="card-prev"></div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="packages">
+    <div class="container">
+
+    <div class="title-section" id="packages">
+      <h2>Pacote de Viagens</h2>
+    </div>
+    <div class="subtitle-section">
+      <h3>Confira nossos melhores tours e seus preços e garanja já a sua reserva!</h3>
+    </div>
+
+    <div class="box">
+      <div class="package-card pkg-1">
+
+        <img class="img-package" src="./assets/img/pack/pack-1.jpg" title="Pack 1" alt="Pacote 1 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>7 Dias ~ 6 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Hard Rock Hotel Maldives</p>
+          <h2>Ilhas Maldivas</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4 active"></span>
+              <span class="star-5 active"></span>
+            </div>
+            <h5 class="score">(78)</h5>
+          </div>
+
+          <p class="package-text">Localizado dentro da Lagoa Emboodhoo. O hotel dispõe vista ampla para o mar...</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 28.250<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-2">
+
+        <img class="img-package" src="./assets/img/pack/pack-2.jpg" title="Pack 2" alt="Pacote 2 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>3 Dias ~ 2 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Raffles Bali</p>
+          <h2>Bali, Indonésia</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4 active"></span>
+              <span class="star-5"></span>
+            </div>
+            <h5 class="score">(57)</h5>
+          </div>
+
+          <p class="package-text">Localizado em Jimbaran, a acomodação oferece em conforto 5 estrelas..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 8.750<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-3">
+
+        <img class="img-package" src="./assets/img/pack/pack-3.jpg" title="Pack 3" alt="Pacote 3 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>3 Dias ~ 2 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Hyatt Ziva Cancun</p>
+          <h2>Cancún, México</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4"></span>
+              <span class="star-5"></span>
+            </div>
+            <h5 class="score">(39)</h5>
+          </div>
+
+          <p class="package-text">Este belíssimo resort à beira-mar está situado na faixa de Punta Cancún..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 10.850<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-4">
+
+        <img class="img-package" src="./assets/img/pack/pack-4.jpg" title="Pack 4" alt="Pacote 4 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>3 Dias ~ 2 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Essenza Hotel</p>
+          <h2>Jericoacoara, Ceará</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4 active"></span>
+              <span class="star-5"></span>
+            </div>
+            <h5 class="score">(26)</h5>
+          </div>
+
+          <p class="package-text">Essenza Hotel oferece acomodação à beira-mar de 5 estrelas..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 3.800<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-5">
+
+        <img class="img-package" src="./assets/img/pack/pack-5.jpg" title="Pack 5" alt="Pacote 5 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>4 Dias ~ 3 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Decameron Isleño</p>
+          <h2>San Andrés, Colombia</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4 active"></span>
+              <span class="star-5 active"></span>
+            </div>
+            <h5 class="score">(18)</h5>
+          </div>
+
+          <p class="package-text">Localizado em San Andrés, a uma curta caminhada da praia..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 7.050<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-6">
+
+        <img class="img-package" src="./assets/img/pack/pack-6.jpg" title="Pack 6" alt="Pacote 6 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>3 Dias ~ 2 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Hotel Ullensvang</p>
+          <h2>Lofthus, Noruega</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4"></span>
+              <span class="star-5"></span>
+            </div>
+            <h5 class="score">(12)</h5>
+          </div>
+
+          <p class="package-text">Situado ao longo do Hardanger Fjord, este hotel à beira-mar oferece vista do Glaciar..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 2.400<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="line container next"></div>
+
+
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container">
+      <div class="title-section" id="blog">
+        <h2>Blog & Notícias</h2>
+      </div>
+      <div class="subtitle-section">
+        <h3>Bem vindo a comunidade AirPlane, fique por dentro das noticias sobre o mundo, curiosidades sobre viagens, cultura, economia e muito mais!</h3>
+      </div>
+
+        <div class="grid">
+
+          <main class="main">
+            <div class="news-img">
+            <img class="img-blog card-blog" src="./assets/img/blog/main-news.png" title="Artigo Principal" alt="Artigo Principal do Blog & Noticias">
+            </div>
+            <div class="main-content-card">
+              <h3 class="card-title">Pesquisa mapeia destinos mais procurados no Brasil em 2023!</h3>
+              <h4 class="blog-text">A empresa OTA Zarpo, realizou uma pesquisa com mais de 500 pessoas de diferentes cidades e estados. Os dados apontam um levantamento de 47,9 de desejo por destinos nacionais e 50,3 por destinos internacionais...</h4>
+            </div>
+            <div class="post">
+              <h5 class="author"><a target="_blank" href="https://github.com/fcaspirro">@fcaspirro</a></h5>
+              <div class="box-btn">
+                <h5 class="btn-post">Ver Post completo</h5>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </main>
+
+          <aside>
+            <div class="aside-card new-2">
+              <img class="aside-img-blog card-blog" src="./assets/img/blog/news-1.png" title="Artigo 1" alt="Artigo 1 Blog & Noticias">
+              <div class="content-card" >
+                <h3 class="card-title">Roundup Rodeo BBQ!</h3>
+                <h4 class="blog-text">Disney de Orlando abrirá restaurante temático da Franquia de Desenho animado 'Toy Story'...</h4>
+                <div class="post">
+                  <h5 class="author"><a target="_blank" href="https://github.com/fcaspirro">@fcaspirro</a></h5>
+                  <div class="box-btn">
+                    <h5 class="btn-post">Ver Post completo</h5>
+                    <i class="uil uil-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="aside-card new-3">
+              <img class="aside-img-blog card-blog" src="./assets/img/blog/news-2.png" title="Artigo 2" alt="Artigo 2 Blog & Noticias">
+              <div class="content-card">
+                <h3 class="card-title">Turismo da Tunísia para 2023 e 2024!</h3>
+                <h4 class="blog-text">Tunísia investe para captação e aumento de turistas brasileiros para 2023 e 2024...</h4>
+                <div class="post">
+                  <h5 class="author"><a target="_blank" href="https://github.com/fcaspirro">@fcaspirro</a></h5>
+                  <div class="box-btn">
+                    <h5 class="btn-post">Ver Post completo</h5>
+                    <i class="uil uil-angle-right"></i>
+                  </div>
+                </div>
+              </div> 
+            </div>
+
+            <div class="aside-card new-4">
+              <img class="aside-img-blog card-blog" src="./assets/img/blog/news-3.png" title="Artigo 3" alt="Artigo 3 Blog & Noticias">
+              <div class="content-card">
+                <h3 class="card-title">Prazo de visto americano passa de 500 dias!</h3>
+                <h4 class="blog-text">o tempo atual para espera de agendamento para entrevista com consulado do EUA em São Paulo chegam a 505 dias (16 meses)..</h4>
+                <div class="post">
+                  <h5 class="author"><a target="_blank" href="https://github.com/fcaspirro">@fcaspirro</a></h5>
+                  <div class="box-btn">
+                    <h5 class="btn-post">Ver Post completo</h5>
+                    <i class="uil uil-angle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-box">
+
+        <div class="break-section"></div>
+
+        <div class="footer-content">
+
+          <div class="company">
+            <img src="./assets/img/dark-logo.png" title="Plane" alt="Logo Plane" width="100px" height="25px;" />
+            <h4>Com a <a href="#home"><span>Plane</span></a> você viaja sabendo os melhores preços, melhores hoteis, restaurantes e turismo!</h4>
+            <h5>Desenvolvido por <a class=github-link target="_blank" href="https://www.github.com/fcaspirro">@fcaspirro</a></h5>
+            <h5>&copy; 2023 - Todos os Direitos Reservados</h5>
+          </div>
+
+          <div class="links">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li>Destino</li>
+              <li><a href="#navigation">Turismo</a></li>
+              <li><a href="#packages"></a>Hotéis</li>
+              <li><a href="#blog">Noticias</a></li>
+            </ul>
+          </div>
+
+          <div class="about">
+            <h2>Sobre Nós</h2>
+            <ul>
+              <li>Sobre a Plane</li>
+              <li><a href="#blog">Blog</a></li>
+              <li>Contato</li>
+              <li><a href="#home">Login</a></li>
+            </ul>
+          </div>
+
+          <div class="contact">
+            <h2>Contato</h2>
+            <h4>Sinta-se a vontade para nos enviar um e-mail ou mensagem. Responderemos brevemente! :)</h4>
+            <div class="message">
+              <span>+55 1234-1234</span>
+              <span>suporte@plane.com</span>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="social-links">
+              <i class="uil uil-facebook-messenger-alt" title="Facebook" alt="Ícone do Facebook Messenger"></i>
+              <i class="uil uil-twitter-alt"  title="Twitter" alt="Ícone do Twitter Messenger"></i>
+              <i class="uil uil-whatsapp"  title="Whatsapp" alt="Ícone do Whatsapp Messenger"></i>
+              <i class="uil uil-linkedin-alt"  title="Linkedin" alt="Ícone do Linkedin Messenger"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script src="styles/main.js"></script>
+
+<script src="package/js/swiper.min.js"></script>
+
+<script>
+         var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            slidesPerGroup: 1,
+            breakpoints: {
+                // when window width is >= 1px
+                1: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                }
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+                clickable: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+</script>
+
+</html>
