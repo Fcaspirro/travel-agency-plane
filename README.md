@@ -22,7 +22,7 @@
 </h3> 
 
  <div align="center">
-   <img width="800px"  alt="Large Devices" title="Página Web" src="/assets/github/large-devices.png"/> 
+   <img width="auto" alt="Large Devices" title="Página Web" src="/assets/github/large-devices.png"/> 
  </div><br>
  
  <h3 align="center"> 
@@ -30,8 +30,8 @@
 </h3> 
 
  <div align="center">
-   <img width="525px" height="800px" alt="Medium Devices" title="Página Web" src="/assets/github/medium-devices.png"/> 
-   <img width="275px" height="800px" alt="Medium Devices" title="Página Web" src="/assets/github/small-devices.png"/> 
+   <img align="top" width="auto" alt="Medium Devices" title="Página Web" src="/assets/github/medium-devices.png"/> 
+   <img align="top" width="auto" height="600px" alt="Medium Devices" title="Página Web" src="/assets/github/small-devices.png"/> 
  </div><br>
   
 ---
