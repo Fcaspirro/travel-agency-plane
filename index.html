@@ -20,7 +20,7 @@
 <body>
   <main>
     <header>
-      <nav class="navbar">
+      <nav class="navbar main-container">
 
         <div class="first-nav"> 
           <img class="logo" src="./assets/img/light-logo.png" title="Plane" alt="Logo Plane" />
@@ -76,8 +76,8 @@
                 <button>EXPLORAR CIDADE ⤏</button> 
               </div>  
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next" id="swiper-banner-next"></div>
+            <div class="swiper-button-prev" id="swiper-banner-prev"></div>
           </div>
 
           <!-- RIO DE JANEIRO -->
@@ -94,8 +94,8 @@
                   <button>EXPLORAR CIDADE ⤏</button>   
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next" id="swiper-banner-next"></div>
+            <div class="swiper-button-prev" id="swiper-banner-prev"></div>
           </div>
 
           <!-- SINGAPURA -->
@@ -112,8 +112,8 @@
                   <button>EXPLORAR CIDADE ⤏</button>   
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next" id="swiper-banner-next"></div>
+            <div class="swiper-button-prev" id="swiper-banner-prev"></div>
           </div>
 
           <!-- SUIÇA -->
@@ -130,8 +130,8 @@
                   <button>EXPLORAR CIDADE ⤏</button>   
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next" id="swiper-banner-next"></div>
+            <div class="swiper-button-prev" id="swiper-banner-prev"></div>
           </div>
 
         </div>
@@ -619,7 +619,7 @@
     <div class="box">
       <div class="package-card pkg-1">
 
-        <img class="img-package" src="./assets/img/pack/pack-1.jpg" title="Pack 1" alt="Pacote 1 de Viagens" />
+        <img class="img-package" src="./assets/img/pack/pack-1.png" title="Pack 1" alt="Pacote 1 de Viagens" />
 
         <div class="period-box">
           <i class="uil uil-clock"></i>
@@ -659,7 +659,7 @@
 
       <div class="package-card pkg-2">
 
-        <img class="img-package" src="./assets/img/pack/pack-2.jpg" title="Pack 2" alt="Pacote 2 de Viagens" />
+        <img class="img-package" src="./assets/img/pack/pack-2.png" title="Pack 2" alt="Pacote 2 de Viagens" />
 
         <div class="period-box">
           <i class="uil uil-clock"></i>
@@ -699,7 +699,7 @@
 
       <div class="package-card pkg-3">
 
-        <img class="img-package" src="./assets/img/pack/pack-3.jpg" title="Pack 3" alt="Pacote 3 de Viagens" />
+        <img class="img-package" src="./assets/img/pack/pack-3.png" title="Pack 3" alt="Pacote 3 de Viagens" />
 
         <div class="period-box">
           <i class="uil uil-clock"></i>
@@ -739,7 +739,7 @@
 
       <div class="package-card pkg-4">
 
-        <img class="img-package" src="./assets/img/pack/pack-4.jpg" title="Pack 4" alt="Pacote 4 de Viagens" />
+        <img class="img-package" src="./assets/img/pack/pack-4.png" title="Pack 4" alt="Pacote 4 de Viagens" />
 
         <div class="period-box">
           <i class="uil uil-clock"></i>
@@ -779,7 +779,7 @@
 
       <div class="package-card pkg-5">
 
-        <img class="img-package" src="./assets/img/pack/pack-5.jpg" title="Pack 5" alt="Pacote 5 de Viagens" />
+        <img class="img-package" src="./assets/img/pack/pack-5.png" title="Pack 5" alt="Pacote 5 de Viagens" />
 
         <div class="period-box">
           <i class="uil uil-clock"></i>
@@ -819,7 +819,7 @@
 
       <div class="package-card pkg-6">
 
-        <img class="img-package" src="./assets/img/pack/pack-6.jpg" title="Pack 6" alt="Pacote 6 de Viagens" />
+        <img class="img-package" src="./assets/img/pack/pack-6.png" title="Pack 6" alt="Pacote 6 de Viagens" />
 
         <div class="period-box">
           <i class="uil uil-clock"></i>
@@ -845,6 +845,86 @@
           <div class="book">
             <div class="price">
               <h3 class="value">R$ 2.400<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-7">
+
+        <img class="img-package" src="./assets/img/pack/pack-7.png" title="Pack 7" alt="Pacote 7 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>7 Dias ~ 6 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>The Pantheon Iconic Rome Hotel</p>
+          <h2>Roma, Itália</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4 active"></span>
+              <span class="star-5 active"></span>
+            </div>
+            <h5 class="score">(11)</h5>
+          </div>
+
+          <p class="package-text">Localizado em Roma, a poucos passos do Panteão..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 15.750<span>/pessoa</span></h3>
+            </div>
+            <div class="btn-book">
+              <div class="go">
+                <h4>Agendar</h4>
+                <i class="uil uil-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="package-card pkg-8">
+
+        <img class="img-package" src="./assets/img/pack/pack-8.png" title="Pack 8" alt="Pacote 8 de Viagens" />
+
+        <div class="period-box">
+          <i class="uil uil-clock"></i>
+          <h5>5 Dias ~ 4 Noites</h5>
+        </div>
+
+        <div class="package-content">
+          <p>Szczyrk Aspen</p>
+          <h2>Aspen, Colorado</h2>
+          <div class="rating">
+            <div class="stars">
+              <span class="star-1 active"></span>
+              <span class="star-2 active"></span>
+              <span class="star-3 active"></span>
+              <span class="star-4 active"></span>
+              <span class="star-5"></span>
+            </div>
+            <h5 class="score">(8)</h5>
+          </div>
+
+          <p class="package-text">Localizado no centro de Szczyrk e a 1 km do Teleférico Skrzyczne..</p>
+
+          <div class="book">
+            <div class="price">
+              <h3 class="value">R$ 2.000<span>/pessoa</span></h3>
             </div>
             <div class="btn-book">
               <div class="go">
