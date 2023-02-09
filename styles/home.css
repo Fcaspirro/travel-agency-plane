@@ -842,7 +842,8 @@
   }
   
   .message span {
-    color: var(--span);
+    color: var(--span-text-color);
+    text-decoration: none;
     font-size: var(--lg);
     font-weight: bold;
     cursor: text;
