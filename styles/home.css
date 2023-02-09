@@ -845,7 +845,7 @@
     color: var(--span);
     font-size: var(--lg);
     font-weight: bold;
-    pointer-events: none;
+    cursor: text;
   }
   
   .company span,
