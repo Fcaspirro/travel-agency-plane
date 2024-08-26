@@ -1,29 +1,9 @@
-const sidebar = document.getElementById('sidebar');
-const menuBtn = document.getElementById('menuBtn');
-const closeBtn = document.getElementById('closeBtn');
-const overlaySidebar = document.getElementById('overlaySidebar');
-
-
-// Botão Open - Abrir Sidebar
-
-if(menuBtn) {
-    menuBtn.addEventListener("click", () => {   
-    sidebar.classList.toggle('active');
-    })
-}
-
-// Botão Close - Fechar Sidebar
-
-closeBtn.onclick = ()=>{
-    sidebar.classList.remove('active');
-}
-
-// Fechamento Sessão - Fechar Sidebar
-
-document.querySelectorAll(".nav-item").forEach((elemento) => {
-    elemento.addEventListener("click", () => {
-      sidebar.classList.remove("active");
-    });
+document.getElementById('menuBtn').addEventListener('click', function() {
+  document.getElementById('sidebar').classList.add('active');
+  document.body.classList.add('menu-active');
 });
 
-
+document.getElementById('closeBtn').addEventListener('click', function() {
+  document.getElementById('sidebar').classList.remove('active');
+  document.body.classList.remove('menu-active');
+});
